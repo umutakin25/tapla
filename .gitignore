@@ -1,0 +1,57 @@
+# ============================================
+# GİZLİ — ASLA COMMIT EDİLMEMELİ
+# ============================================
+.env
+.env.local
+.env.production
+!.env.example
+
+# Müşteri verisi (panel token'ları, kart kodları)
+kartlar.csv
+panel_adresleri.csv
+data/
+*.json
+!package.json
+!*.example.json
+
+# Üretilen raporlar (müşteri yorumları içerir)
+*_rapor.html
+*_analiz.json
+*_yorumlar.json
+
+# ============================================
+# Python
+# ============================================
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ============================================
+# Node
+# ============================================
+node_modules/
+npm-debug.log*
+.wrangler/
+
+# ============================================
+# Editör / işletim sistemi
+# ============================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Geçici
+# ============================================
+*.log
+*.tmp
+tmp/
+out/
